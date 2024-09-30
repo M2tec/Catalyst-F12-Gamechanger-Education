@@ -1,2 +1,41 @@
 {
+    "Modules": {
+        "101": {
+            "Name": "Introduction",
+            "SLT": {
+                "101.1": "I understand why Gamechanger was built",
+                "101.2": "I can find the GC playground",
+                "101.3": "I can write a basic GC script",
+                "Assignment 101": "Go find GC script in a production dApp"
+            }
+        },
+        "102": {
+            "Name": "Basic transaction",
+            "SLT": {
+                "102.1": "I can send a transaction using a  GC script",
+                "102.2": "I can analyze what is going on during a GC transaction",
+                "102.3": "I can setup my dev environment: http server using VSCode ",
+                "102.4": "I am able to run my own scripts using gc lib",
+                "Assignment 102": "Find GC script in payments.m2tec.nl"
+            }
+        },
+        "201": {
+            "Name": "Unimatrix shared wallets",
+            "SLT": {
+                "201.1": "I know how to setup a multisig wallet",
+                "201.2": "I can find a unimatrix endpoint",
+                "201.3": "I understand how to use Unimatrix in a DAO website",
+                "Assignment 201": "Create your own DAO site using GC and Unimatrix"
+            }
+        },
+        "202": {
+            "Name": "Basic contracts",
+            "SLT": {
+                "202.1": "I understand the basics of Helios language",
+                "202.2": "I understand the basics of Inception contract dev environment",
+                "202.3": "I can setup my own dev environment using helios contracts",
+                "Assignment 202": "Run a token lock unlock contract using Inception"
+            }
+        }
+    }
 }
