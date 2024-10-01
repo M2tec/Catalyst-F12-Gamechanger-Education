@@ -4,28 +4,32 @@
             "Name": "Introduction",
             "SLT": {
                 "101.1": "I understand why Gamechanger was built",
-                "101.2": "I can find the GC playground",
+                "101.2": "I can find the GC playground IDE (code editor)",
                 "101.3": "I can write a basic GC script",
-                "Assignment 101": "Go find GC script in a production dApp"
+                "Assignment 101": "Go find GC script in a deployed dApp"
             }
         },
         "102": {
             "Name": "Basic transaction",
             "SLT": {
                 "102.1": "I can send a transaction using a  GC script",
-                "102.2": "I can analyze what is going on during a GC transaction",
+                "102.2": "I can analyze what is going on during GCScript",
                 "102.3": "I can setup my dev environment: http server using VSCode ",
-                "102.4": "I am able to run my own scripts using gc lib",
-                "Assignment 102": "Find GC script in payments.m2tec.nl"
+                "102.4": "I am able to run my own scripts using gc lib from npm",
+                "Assignment 102": "Hack into a payments.m2tec.nl dapp<-->wallet connection and avoid paying the service"
             }
         },
         "201": {
-            "Name": "Unimatrix shared wallets",
+            "Name": "Workspaces, Multisig wallets and Unimatrix Sync",
             "SLT": {
-                "201.1": "I know how to setup a multisig wallet",
-                "201.2": "I can find a unimatrix endpoint",
-                "201.3": "I understand how to use Unimatrix in a DAO website",
-                "Assignment 201": "Create your own DAO site using GC and Unimatrix"
+                "201.1": "I know what a Workspace is",
+                "201.2": "I know how to create a workspace with a couple child addresses",
+                "201.3": "I know how to create a workspace with 5 hierarchical deterministic child addresses",
+                "201.4": "I know how to create a workspace with a multisig wallet address",
+                "201.5": "I can sign and send a transaction from my multisig wallet and Unimatrix",
+                "201.6": "I understand how to use Unimatrix for a DAO website",
+                "Assignment 201": "Create your own DAO site using GC and Unimatrix",
+                "Assignment 202": "Add to the dapp a feature for spending treasury funds through proposals"
             }
         },
         "202": {
