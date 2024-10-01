@@ -24,10 +24,9 @@
             "SLT": {
                 "201.1": "I know what a Workspace is",
                 "201.2": "I know how to create a workspace with a couple child addresses",
-                "201.3": "I know how to create a workspace with 5 hierarchical deterministic child addresses",
-                "201.4": "I know how to create a workspace with a multisig wallet address",
-                "201.5": "I can sign and send a transaction from my multisig wallet and Unimatrix",
-                "201.6": "I understand how to use Unimatrix for a DAO website",
+                "201.3": "I know how to create a workspace with a multisig wallet address",
+                "201.4": "I can sign and send a transaction from my multisig wallet and Unimatrix",
+                "201.5": "I understand how to use Unimatrix for a DAO website",
                 "Assignment 201": "Create your own DAO site using GC and Unimatrix",
                 "Assignment 202": "Add to the dapp a feature for spending treasury funds through proposals"
             }
