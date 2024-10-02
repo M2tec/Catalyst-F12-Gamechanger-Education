@@ -1,0 +1,12 @@
+{
+    "103": {
+        "Name": "Cardano transactions",
+        "SLT": {
+            "102.1": "I can send a transaction with multiple outputs and a CIP20 metadata message",
+            "102.2": "I can send multiple transactions on a single GCScript",
+            "102.3": "I can mint and burn a native asset token",
+            "102.4": "I can mint an NFT",
+            "Assignment 102": "Make a dapp that mints an NFT for 5 coins"
+        }
+    }
+}
