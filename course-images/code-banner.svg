@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500mm"
+   height="200mm"
+   viewBox="0 0 500 200"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="code-banner.svg"
+   inkscape:export-filename="code.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.52724989"
+     inkscape:cx="859.17515"
+     inkscape:cy="530.10917"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2571">
+      <stop
+         style="stop-color:#8bff3a;stop-opacity:1;"
+         offset="0"
+         id="stop2567" />
+      <stop
+         style="stop-color:#8bff3a;stop-opacity:0;"
+         offset="1"
+         id="stop2569" />
+    </linearGradient>
+    <rect
+       x="92.653529"
+       y="-332.57772"
+       width="1918.3711"
+       height="1831.9187"
+       id="rect2563" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient460">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop456" />
+      <stop
+         style="stop-color:#545454;stop-opacity:1;"
+         offset="1"
+         id="stop458" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient460"
+       id="linearGradient462"
+       x1="-164.89618"
+       y1="-161.06966"
+       x2="-164.03401"
+       y2="-166.21945"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-4.1594257,-5.1504173)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2571"
+       id="linearGradient2573"
+       x1="210.82593"
+       y1="-878.01819"
+       x2="733.48029"
+       y2="1315.3923"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#0f0f0f;fill-opacity:1;stroke-width:0.264583;stroke-opacity:0.742361"
+       id="rect603"
+       width="648.83069"
+       height="340.67542"
+       x="-64.258156"
+       y="-62.470425" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.24325408,-0.05495221,0.04692689,0.20772882,-28.278374,26.732522)"
+       id="text2561"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2563);display:inline;fill:url(#linearGradient2573);fill-opacity:1;stroke:none"><tspan
+         x="92.654297"
+         y="-296.18312"
+         id="tspan2829">{
+</tspan><tspan
+         x="92.654297"
+         y="-246.18312"
+         id="tspan2831">    &quot;type&quot;: &quot;script&quot;,
+</tspan><tspan
+         x="92.654297"
+         y="-196.18312"
+         id="tspan2833">    &quot;title&quot;: &quot;Pay me 1 tADA&quot;,
+</tspan><tspan
+         x="92.654297"
+         y="-146.18312"
+         id="tspan2835">    &quot;run&quot;: {
+</tspan><tspan
+         x="92.654297"
+         y="-96.183118"
+         id="tspan2837">        &quot;build_1&quot;: {
+</tspan><tspan
+         x="92.654297"
+         y="-46.183118"
+         id="tspan2839">            &quot;type&quot;: &quot;buildTx&quot;,
+</tspan><tspan
+         x="92.654297"
+         y="3.8168823"
+         id="tspan2841">            &quot;name&quot;: &quot;Basic tx&quot;,
+</tspan><tspan
+         x="92.654297"
+         y="53.816882"
+         id="tspan2843">            &quot;tx&quot;: {
+</tspan><tspan
+         x="92.654297"
+         y="103.81688"
+         id="tspan2845">                &quot;outputs&quot;: [
+</tspan><tspan
+         x="92.654297"
+         y="153.81688"
+         id="tspan2847">                    {
+</tspan><tspan
+         x="92.654297"
+         y="203.81688"
+         id="tspan2849">                        &quot;address&quot;: </tspan><tspan
+         x="92.654297"
+         y="253.81688"
+         id="tspan2853"><tspan
+           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00010681152"
+           id="tspan2851">&quot;addr_test1qrl07u9ssdtdwtzhrt0zrrr79yejxhfvmsmjt9jxqyaz0ktp6ydulqht6r9z4ld0jms3a3c7gw45u32vh</tspan></tspan><tspan
+         x="92.654297"
+         y="303.81688"
+         id="tspan2855">c2ftdp2f6rqvz02jw&quot;,
+</tspan><tspan
+         x="92.654297"
+         y="353.81688"
+         id="tspan2857">                        &quot;assets&quot;: [
+</tspan><tspan
+         x="92.654297"
+         y="403.81688"
+         id="tspan2859">                            {
+</tspan><tspan
+         x="92.654297"
+         y="453.81688"
+         id="tspan2861">                                &quot;policyId&quot;: &quot;ada&quot;,
+</tspan><tspan
+         x="92.654297"
+         y="503.81688"
+         id="tspan2863">                                &quot;assetName&quot;: &quot;ada&quot;,
+</tspan><tspan
+         x="92.654297"
+         y="553.81688"
+         id="tspan2865">                                &quot;quantity&quot;: &quot;1000000&quot;
+</tspan><tspan
+         x="92.654297"
+         y="603.81688"
+         id="tspan2867">                            }
+</tspan><tspan
+         x="92.654297"
+         y="653.81688"
+         id="tspan2869">                        ]
+</tspan><tspan
+         x="92.654297"
+         y="703.81688"
+         id="tspan2871">                    }
+</tspan><tspan
+         x="92.654297"
+         y="753.81688"
+         id="tspan2873">                ]
+</tspan><tspan
+         x="92.654297"
+         y="803.81688"
+         id="tspan2875">            }
+</tspan><tspan
+         x="92.654297"
+         y="853.81688"
+         id="tspan2877">        },
+</tspan><tspan
+         x="92.654297"
+         y="903.81688"
+         id="tspan2879">        &quot;sign_1&quot;: {
+</tspan><tspan
+         x="92.654297"
+         y="953.81688"
+         id="tspan2881">            &quot;type&quot;: &quot;signTxs&quot;,
+</tspan><tspan
+         x="92.654297"
+         y="1003.8169"
+         id="tspan2883">            &quot;namePattern&quot;: &quot;Sign&quot;,
+</tspan><tspan
+         x="92.654297"
+         y="1053.8169"
+         id="tspan2885">            &quot;detailedPermissions&quot;: false,
+</tspan><tspan
+         x="92.654297"
+         y="1103.8169"
+         id="tspan2887">            &quot;txs&quot;: [
+</tspan><tspan
+         x="92.654297"
+         y="1153.8169"
+         id="tspan2889">                &quot;{get('cache.build_1.txHex')}&quot;
+</tspan><tspan
+         x="92.654297"
+         y="1203.8169"
+         id="tspan2891">            ]
+</tspan><tspan
+         x="92.654297"
+         y="1253.8169"
+         id="tspan2893">        },
+</tspan><tspan
+         x="92.654297"
+         y="1303.8169"
+         id="tspan2895">        &quot;submit_1&quot;: {
+</tspan><tspan
+         x="92.654297"
+         y="1353.8169"
+         id="tspan2897">            &quot;type&quot;: &quot;submitTxs&quot;,
+</tspan><tspan
+         x="92.654297"
+         y="1403.8169"
+         id="tspan2899">            &quot;namePattern&quot;: &quot;Submit&quot;,
+</tspan><tspan
+         x="92.654297"
+         y="1453.8169"
+         id="tspan2901">            &quot;txs&quot;: &quot;{get('cache.sign_1')}&quot;
+</tspan><tspan
+         x="92.654297"
+         y="1535.7368"
+         id="tspan2905"><tspan
+           dx="0 10.400009 10.400009 10.400009 10.400009 10.400009 10.400009 10.400009 10.400009 15.199966"
+           id="tspan2903">        }
+</tspan></tspan><tspan
+         x="92.654297"
+         y="1585.7368"
+         id="tspan2909"><tspan
+           dx="0 10.400009 10.400009 10.400009 10.400009 15.199966"
+           id="tspan2907">    }
+</tspan></tspan><tspan
+         x="92.654297"
+         y="1635.7368"
+         id="tspan2911">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:112.004px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient462);fill-opacity:1;stroke:none;stroke-width:2.80012;stroke-opacity:1"
+       x="-50.322609"
+       y="188.31233"
+       id="text236"
+       transform="rotate(-22.257033)"><tspan
+         sodipodi:role="line"
+         id="tspan234"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:112.004px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient462);fill-opacity:1;stroke:none;stroke-width:2.80012;stroke-opacity:1"
+         x="-50.322609"
+         y="188.31233">{ CODE }</tspan></text>
+  </g>
+</svg>
