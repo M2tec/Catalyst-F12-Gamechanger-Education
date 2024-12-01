@@ -1,0 +1,34 @@
+{
+  "MyAlterEgos": {
+    "Alice": {
+      "wallet": {
+        "index": 0,
+        "key": "wallet",
+        "address": "addr_test1qrxv3les9q245jrj9znwpm8s9mwd8n2z5q4tfmhfgamxyfadqwj2u3djrag0mene2cm9elu5mdqmcz9zc2rzgq7c5g6qu74xcz",
+        "name": "Alice",
+        "spendKeyHex": "45a434c4c5dce9402ec0a12bd6abc7d661acc4ebd33c9e2d6ead84daf10a5d59",
+        "stakeKeyHex": "e96c09fb8ab6b7831b7b00f3909cd4fcdaebd14cea46904de02a254cdc168091",
+        "spendKeyHashHex": "ccc8ff3028155a487228a6e0ecf02edcd3cd42a02ab4eee947766227",
+        "stakeKeyHashHex": "9957781a7c45357f96120ee73f80bfaa98adae68ce6ae80a3014d175",
+        "defaultCredentials": {
+          "stakeKeyHashHex": "ad03a4ae45b21f50fde67956365cff94db41bc08a2c2862403d8a234"
+        }
+      }
+    },
+    "Bob": {
+      "wallet": {
+        "index": 0,
+        "key": "wallet",
+        "address": "addr_test1qqq5dck40w6jmjyg79w0zll0g98y4vdhrgm0m7xdrxdu9s4dqwj2u3djrag0mene2cm9elu5mdqmcz9zc2rzgq7c5g6q7zk3hz",
+        "name": "Bob",
+        "spendKeyHex": "7b09f37d1be6b746bb1bbee4fbcb401ee75971b1915203e19ae732430b7fd8a0",
+        "stakeKeyHex": "3140057cdc3914601d975c0fc79c21f22eb46aaedcd8a525ce50288e217c939e",
+        "spendKeyHashHex": "0146e2d57bb52dc888f15cf17fef414e4ab1b71a36fdf8cd199bc2c2",
+        "stakeKeyHashHex": "80ca5adf47eb9ff0f4408bd0e3927fc39e1472d460441d4cdb9d2d28",
+        "defaultCredentials": {
+          "stakeKeyHashHex": "ad03a4ae45b21f50fde67956365cff94db41bc08a2c2862403d8a234"
+        }
+      }
+    }
+  }
+}

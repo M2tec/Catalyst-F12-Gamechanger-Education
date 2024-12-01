@@ -1,0 +1,62 @@
+{
+    "title": "Pay contractor",
+    "description": "Work related to Alice and Bob DAO",
+    "type": "script",
+    "run": {
+        "build1": {
+            "type": "buildTx",
+            "title": "Unimatrix Multisig 1",
+            "tx": {
+                "outputs": {
+                    "contractor": {
+                        "address": "addr_test1qqveyzyq7rgv69lfd36g34r2cqv5w52gflss8qmd9445q84jeydv636p62uy7lf9lheagf2q9u0aadw09g2t8vu2wnjqd9xsl6",
+                        "assets": [
+                            {
+                                "policyId": "ada",
+                                "assetName": "ada",
+                                "quantity": "5000000"
+                            }
+                        ]
+                    }
+                },
+                "options": {
+                    "autoOptionalSigners": {
+                        "nativeScript": true
+                    }
+                }
+            }
+        },
+        "sign": {
+            "detailedPermissions": false,
+            "type": "signTxs",
+            "multisig": [
+                {
+                    "kind": "CurrentWorkspace"
+                },
+                {
+                    "id": "multisig_1234",
+                    "kind": "Unimatrix",
+                    "share": true,
+                    "shareTxs": true,
+                    "announceTxHashes": true,
+                    "announceTxHashesSubPath": "signTxs",
+                    "relays": [
+                        "https://ar01.gamechanger.finance:2083/unimatrix/gun",
+                        "https://ar02.gamechanger.finance:2083/unimatrix/gun",
+                        "https://unimatrix01.gamechanger.finance/gun",
+                        "https://unimatrix02.gamechanger.finance/gun",
+                        "http://localhost:5173/unimatrix/gun",
+                        "http://localhost:5173/gun"
+                    ]
+                }
+            ],
+            "txs": [
+                "{get('cache.build1.txHex')}"
+            ]
+        },
+        "submit": {
+            "type": "submitTxs",
+            "txs": "{get('cache.sign')}"
+        }
+    }
+}

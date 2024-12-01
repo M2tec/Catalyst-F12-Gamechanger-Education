@@ -1,0 +1,35 @@
+{
+  "type": "script",
+  "title": "Creating Alice, Bob and Charles",
+  "description": "Generates 3 unique QR password-encrypted Gift Wallets for testing multisig with your own set of keys. QR codes will be downloaded as PNG files. Import them into GC Wallet and store script results.",
+  "exportAs": "MyAlterEgos",
+  "run": {
+      "Alice": {
+          "type": "walletGenerator",
+          "amount": 1,
+          "defaultNamePattern": "Alice",
+          "defaultPasswordPattern": "ImAlice1234",
+          "defaultDescriptionPattern": "Use to sign as Alice",
+          "defaultKeyPattern": "wallet",
+          "defaultHintPattern": "your password is '{password}'",
+          "qr": true,
+          "download": true,
+          "extra":true
+      },
+      "Bob": {
+          "type": "walletGenerator",
+          "amount": 1,
+          "defaultNamePattern": "Bob",
+          "defaultPasswordPattern": "ImBob1234",
+          "defaultDescriptionPattern": "Use to sign as Bob",
+          "defaultKeyPattern": "wallet",
+          "defaultHintPattern": "your password is '{password}'",
+          "qr": true,
+          "download": true,
+          "extra":true
+      }
+  }
+}
+
+
+https://beta-preprod-wallet.gamechanger.finance/api/2/run/1-H4sIAAAAAAAAA72SQUvDQBCF_8qwl15qodZTb7VKLGKpgnjeNpN2cbObzk5IQ8l_dzZJDXoQRPCWzbz3Zt-XnBXXBaq5CjsyBauxYsM2vlgSajZuDwtrdjiGW78F7VJYHjRZDKJMsTMZ70SfoEPSjAFmUDpzLBGeX6DQIVSe0it0O6oLxhQSkzG8aWuRA2SeQDztory0bILZQ2X4ALUvCXzlICCDz-Ad6zCJkTsvi0VjLWwRUpFYr1MJ1gE26wQyI9ebwCovPDHwAXMwjj0ky35rWyOwJ4SuABAG2R0mUgpP0bYI0uipXlhGut_72JZKaXlWLY340HOr2si-vCcR6tyXjtV8GgllWoLXOseNZsmKoLqEz-GmJzQIVnkrmV7PbgbZ3QB7UL4GBGkmzFxs_y35EetB2t1zGD4Ik2Hawr58KzABRufLqRmJ6UhqzlSi2HvelzOemHR3aMZKfpI_sYn-H8mI4PdcvqT-O5Wm-QBX-FDJZQMAAA

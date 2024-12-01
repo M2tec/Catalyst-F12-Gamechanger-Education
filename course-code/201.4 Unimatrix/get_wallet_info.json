@@ -1,0 +1,30 @@
+{
+    "type": "script",
+    "title": "Key Info",
+    "description": "Get hash",
+    "exportAs": "data",
+    "run": {
+        "mainSpendKey": {
+            "type": "getSpendingPublicKey"
+        },
+        "mainStakeKey": {
+            "type": "getStakingPublicKey"
+        }
+    }
+}
+
+https://beta-preprod-wallet.gamechanger.finance/api/2/run/1-H4sIAAAAAAAAA2WNMQ6DMAxFr4I8c4JuTKjqUqknMMSAVXCixEhFKHevAyxVR7_39L2DboHgBqmPHBRqUNa5gAdt1V0Gb8jRadmLiZa0mjBNJugTfNQmGXWoaCSuluywIMsrkDhbKff1ZCQ9KMv4XLuZ-6JzfeaKb_rPjf7WOX8BNXr7qrQAAAA
+
+
+{
+    "type": "script",
+    "title": "Key Info",
+    "description": "Get hash",
+    "exportAs": "data",
+    "run": {
+        "KeyInfo": {
+            "type": "macro",
+            "run": "{getAddressInfo('addr_test1qzhk0pycq7g5krcl88dfly68r4d8v0qem66tfz0pv3gm284vtuft7q8490g8a8jq6f47sy87gvse82danhchjvjf3ucqsccj6p')}"
+       }
+    }
+}

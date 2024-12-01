@@ -1,0 +1,72 @@
+{
+    "type": "script",
+    "title": "Multisig 2 of 2 Workspace",
+    "description": "Alice and Bob must sign",
+    "run": {
+        "keys": {
+            "type": "macro",
+            "run": {
+                "Alice": "{getAddressInfo('addr_test1qqwfs0k42vve88mw2gdl08zevk3tg44vm2up66k555sd8uau4p4s4tm6s7fr7dp6hmqxe3klu484pehqg3t50ed27jfqz046we')}",
+                "Bob": "{getAddressInfo('addr_test1qzhk0pycq7g5krcl88dfly68r4d8v0qem66tfz0pv3gm284vtuft7q8490g8a8jq6f47sy87gvse82danhchjvjf3ucqsccj6p')}"
+            }
+        },
+        "walletSetup": {
+            "type": "loadConfig",
+            "updateId": "multisigs_update_1",
+            "layers": [
+                {
+                    "type": "Workspace",
+                    "items": [
+                        {
+                            "namePattern": "multisigs",
+                            "titlePattern": "DOA",
+                            "descriptionPattern": "Working group Alice and Bob"
+                        }
+                    ]
+                },
+                {
+                    "type": "NativeScript",
+                    "workspaceIds": [
+                        "multisigs"
+                    ],
+                    "namePattern": "2_of_2_{key}_script",
+                    "items": {
+                        "spend": {
+                            "all": {
+                                "alice": {
+                                    "pubKeyHashHex": "{get('cache.keys.Alice.paymentKeyHash')}"
+                                },
+                                "bob": {
+                                    "pubKeyHashHex": "{get('cache.keys.Bob.paymentKeyHash')}"
+                                }
+                            }
+                        },
+                        "stake": {
+                            "all": {
+                                "alice": {
+                                    "pubKeyHashHex": "{get('cache.keys.Alice.stakingKeyHash')}"
+                                },
+                                "bob": {
+                                    "pubKeyHashHex": "{get('cache.keys.Bob.stakingKeyHash')}"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "Address",
+                    "workspaceIds": [
+                        "multisigs"
+                    ],
+                    "items": [
+                        {
+                            "namePattern": "AB limited",
+                            "spendNativeScriptName": "2_of_2_spend_script",
+                            "stakeNativeScriptName": "2_of_2_stake_script"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
