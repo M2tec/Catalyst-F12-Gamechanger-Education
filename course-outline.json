@@ -5,7 +5,8 @@
             "SLT": {
                 "101.1": "I understand why Gamechanger was built",
                 "101.2": "I can find the GC playground IDE (code editor)",
-                "101.3": "I can write a basic GC script",
+                "101.3": "I understand the basic buildingblocks of a GC script",
+                "101.4": "I can write a basic GC script",
                 "Assignment 101": "Go find GC script in a deployed dApp"
             }
         },
