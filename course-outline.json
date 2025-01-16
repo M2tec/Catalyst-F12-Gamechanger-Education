@@ -17,7 +17,7 @@
                 "102.2": "I can analyze what is going on during GCScript",
                 "102.3": "I can setup my dev environment: http server using VSCode ",
                 "102.4": "I am able to run my own scripts using gc lib from npm",
-                "Assignment 102": "Hack into a payments.m2tec.nl dapp<-->wallet connection"
+                "Assignment 102": "Hack into a payments.m2tec.nl dapp <--> wallet connection"
             }
         },
         "201": {
