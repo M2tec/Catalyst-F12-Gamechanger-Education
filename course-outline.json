@@ -5,7 +5,8 @@
             "SLT": {
                 "101.1": "I understand why Gamechanger was built",
                 "101.2": "I can find the GC playground IDE (code editor)",
-                "101.3": "I can write a basic GC script",
+                "101.3": "I understand the basic buildingblocks of a GC script",
+                "101.4": "I can write a basic GC script",
                 "Assignment 101": "Go find GC script in a deployed dApp"
             }
         },
@@ -16,27 +17,25 @@
                 "102.2": "I can analyze what is going on during GCScript",
                 "102.3": "I can setup my dev environment: http server using VSCode ",
                 "102.4": "I am able to run my own scripts using gc lib from npm",
-                "Assignment 102": "Hack into a payments.m2tec.nl dapp<-->wallet connection and avoid paying the service"
+                "Assignment 102": "Hack into a payments.m2tec.nl dapp <--> wallet connection"
             }
         },
         "201": {
-            "Name": "Workspaces, Multisig wallets and Unimatrix Sync",
+            "Name": "Workspaces and Multisig wallets",
             "SLT": {
                 "201.1": "I know what a Workspace is",
-                "201.2": "I know how to create a workspace with a couple child addresses",
+                "201.2": "I know how to create a workspace with child addresses",
                 "201.3": "I know how to create a workspace with a multisig wallet address",
-                "201.4": "I can sign and send a transaction from my multisig wallet and Unimatrix",
-                "201.5": "I understand how to use Unimatrix for a DAO website",
-                "Assignment 201": "Create your own DAO site using GC and Unimatrix"
+                "Assignment 201": "Create your own workspace with GCscript"
             }
         },
-        "202": {
-            "Name": "Basic contracts",
+        "301": {
+            "Name": "UniDAO: Unimatrix treasury dApp",
             "SLT": {
-                "202.1": "I understand the basics of Helios language",
-                "202.2": "I understand the basics of Inception contract dev environment",
-                "202.3": "I can setup my own dev environment using helios contracts",
-                "Assignment 202": "Run a token lock unlock contract using Inception"
+                "301.1": "I can sign and send a transaction from my multisig wallet and Unimatrix",
+                "301.2": "I know how to use the Unimatrix Vite template",
+                "301.3": "I know how to build a DAO site with Unimatrix",
+                "Assignment 301": "Clone the DAO template and build you own site"
             }
         }
     }
